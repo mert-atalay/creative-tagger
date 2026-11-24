@@ -1,0 +1,12 @@
+[project]
+name = "creative-tagger"
+version = "0.1.0"
+description = "Tag ad creatives with a vision model, check the tags, and analyse results by tag."
+requires-python = ">=3.12"
+dependencies = ["pillow>=11"]
+
+[dependency-groups]
+dev = ["pytest>=8"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

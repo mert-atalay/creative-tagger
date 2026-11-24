@@ -1,0 +1,550 @@
+{
+  "model": "gpt-5.4-mini",
+  "agreement_with_briefs": {
+    "overall": 0.802,
+    "matched": 77,
+    "total": 96,
+    "per_field": {
+      "people": {
+        "match": 12,
+        "total": 12,
+        "misses": [],
+        "rate": 1.0
+      },
+      "setting": {
+        "match": 10,
+        "total": 12,
+        "misses": [
+          {
+            "id": "a10",
+            "intended": "studio_class",
+            "tagged": "home",
+            "confidence": 0.94
+          },
+          {
+            "id": "a12",
+            "intended": "gym_floor",
+            "tagged": "abstract_or_plain",
+            "confidence": 0.97
+          }
+        ],
+        "rate": 0.833
+      },
+      "activity": {
+        "match": 10,
+        "total": 12,
+        "misses": [
+          {
+            "id": "a04",
+            "intended": "none",
+            "tagged": "strength",
+            "confidence": 0.95
+          },
+          {
+            "id": "a11",
+            "intended": "strength",
+            "tagged": "class",
+            "confidence": 0.72
+          }
+        ],
+        "rate": 0.833
+      },
+      "mood": {
+        "match": 9,
+        "total": 12,
+        "misses": [
+          {
+            "id": "a03",
+            "intended": "calm",
+            "tagged": "energetic",
+            "confidence": 0.95
+          },
+          {
+            "id": "a07",
+            "intended": "energetic",
+            "tagged": "intense",
+            "confidence": 0.94
+          },
+          {
+            "id": "a11",
+            "intended": "friendly",
+            "tagged": "energetic",
+            "confidence": 0.88
+          }
+        ],
+        "rate": 0.75
+      },
+      "shot": {
+        "match": 9,
+        "total": 12,
+        "misses": [
+          {
+            "id": "a04",
+            "intended": "no_subject",
+            "tagged": "wide",
+            "confidence": 0.99
+          },
+          {
+            "id": "a05",
+            "intended": "medium",
+            "tagged": "wide",
+            "confidence": 0.92
+          },
+          {
+            "id": "a07",
+            "intended": "close_up",
+            "tagged": "medium",
+            "confidence": 0.92
+          }
+        ],
+        "rate": 0.75
+      },
+      "dominant_colour": {
+        "match": 11,
+        "total": 12,
+        "misses": [
+          {
+            "id": "a10",
+            "intended": "neutral",
+            "tagged": "warm",
+            "confidence": 0.9
+          }
+        ],
+        "rate": 0.917
+      },
+      "text_amount": {
+        "match": 4,
+        "total": 12,
+        "misses": [
+          {
+            "id": "a01",
+            "intended": "headline_only",
+            "tagged": "headline_and_more",
+            "confidence": 0.97
+          },
+          {
+            "id": "a03",
+            "intended": "headline_only",
+            "tagged": "headline_and_more",
+            "confidence": 0.9
+          },
+          {
+            "id": "a04",
+            "intended": "headline_only",
+            "tagged": "headline_and_more",
+            "confidence": 0.98
+          },
+          {
+            "id": "a06",
+            "intended": "headline_only",
+            "tagged": "headline_and_more",
+            "confidence": 0.99
+          },
+          {
+            "id": "a07",
+            "intended": "none",
+            "tagged": "headline_only",
+            "confidence": 0.96
+          },
+          {
+            "id": "a08",
+            "intended": "headline_only",
+            "tagged": "headline_and_more",
+            "confidence": 0.99
+          },
+          {
+            "id": "a11",
+            "intended": "headline_only",
+            "tagged": "headline_and_more",
+            "confidence": 0.98
+          },
+          {
+            "id": "a12",
+            "intended": "none",
+            "tagged": "headline_only",
+            "confidence": 0.92
+          }
+        ],
+        "rate": 0.333
+      },
+      "cta_present": {
+        "match": 12,
+        "total": 12,
+        "misses": [],
+        "rate": 1.0
+      }
+    }
+  },
+  "stability_across_passes": {
+    "overall": 0.927,
+    "per_field": {
+      "people": {
+        "same": 12,
+        "total": 12,
+        "rate": 1.0
+      },
+      "setting": {
+        "same": 12,
+        "total": 12,
+        "rate": 1.0
+      },
+      "activity": {
+        "same": 11,
+        "total": 12,
+        "rate": 0.917
+      },
+      "mood": {
+        "same": 11,
+        "total": 12,
+        "rate": 0.917
+      },
+      "shot": {
+        "same": 8,
+        "total": 12,
+        "rate": 0.667
+      },
+      "dominant_colour": {
+        "same": 12,
+        "total": 12,
+        "rate": 1.0
+      },
+      "text_amount": {
+        "same": 11,
+        "total": 12,
+        "rate": 0.917
+      },
+      "cta_present": {
+        "same": 12,
+        "total": 12,
+        "rate": 1.0
+      }
+    }
+  },
+  "by_tag": {
+    "overall_ctr": 0.01363,
+    "min_ads": 3,
+    "prior_impressions": 20000,
+    "rows": [
+      {
+        "field": "people",
+        "value": "crowd",
+        "ads": 1,
+        "impressions": 23000,
+        "clicks": 222,
+        "ctr": 0.00965,
+        "shrunk_lift": 0.844,
+        "enough_data": false
+      },
+      {
+        "field": "people",
+        "value": "none",
+        "ads": 2,
+        "impressions": 49000,
+        "clicks": 482,
+        "ctr": 0.00984,
+        "shrunk_lift": 0.802,
+        "enough_data": false
+      },
+      {
+        "field": "people",
+        "value": "one_person",
+        "ads": 6,
+        "impressions": 136500,
+        "clicks": 2075,
+        "ctr": 0.0152,
+        "shrunk_lift": 1.101,
+        "enough_data": true
+      },
+      {
+        "field": "people",
+        "value": "small_group",
+        "ads": 3,
+        "impressions": 66000,
+        "clicks": 962,
+        "ctr": 0.01458,
+        "shrunk_lift": 1.053,
+        "enough_data": true
+      },
+      {
+        "field": "setting",
+        "value": "abstract_or_plain",
+        "ads": 2,
+        "impressions": 68000,
+        "clicks": 758,
+        "ctr": 0.01115,
+        "shrunk_lift": 0.859,
+        "enough_data": false
+      },
+      {
+        "field": "setting",
+        "value": "gym_floor",
+        "ads": 4,
+        "impressions": 99500,
+        "clicks": 1417,
+        "ctr": 0.01424,
+        "shrunk_lift": 1.037,
+        "enough_data": true
+      },
+      {
+        "field": "setting",
+        "value": "home",
+        "ads": 2,
+        "impressions": 27000,
+        "clicks": 453,
+        "ctr": 0.01678,
+        "shrunk_lift": 1.133,
+        "enough_data": false
+      },
+      {
+        "field": "setting",
+        "value": "outdoors",
+        "ads": 2,
+        "impressions": 24000,
+        "clicks": 379,
+        "ctr": 0.01579,
+        "shrunk_lift": 1.087,
+        "enough_data": false
+      },
+      {
+        "field": "setting",
+        "value": "studio_class",
+        "ads": 2,
+        "impressions": 56000,
+        "clicks": 734,
+        "ctr": 0.01311,
+        "shrunk_lift": 0.972,
+        "enough_data": false
+      },
+      {
+        "field": "activity",
+        "value": "cardio",
+        "ads": 2,
+        "impressions": 48000,
+        "clicks": 718,
+        "ctr": 0.01496,
+        "shrunk_lift": 1.069,
+        "enough_data": false
+      },
+      {
+        "field": "activity",
+        "value": "class",
+        "ads": 3,
+        "impressions": 67500,
+        "clicks": 909,
+        "ctr": 0.01347,
+        "shrunk_lift": 0.991,
+        "enough_data": true
+      },
+      {
+        "field": "activity",
+        "value": "coaching",
+        "ads": 1,
+        "impressions": 21500,
+        "clicks": 275,
+        "ctr": 0.01279,
+        "shrunk_lift": 0.968,
+        "enough_data": false
+      },
+      {
+        "field": "activity",
+        "value": "none",
+        "ads": 1,
+        "impressions": 35000,
+        "clicks": 334,
+        "ctr": 0.00954,
+        "shrunk_lift": 0.809,
+        "enough_data": false
+      },
+      {
+        "field": "activity",
+        "value": "strength",
+        "ads": 3,
+        "impressions": 75500,
+        "clicks": 1052,
+        "ctr": 0.01393,
+        "shrunk_lift": 1.018,
+        "enough_data": true
+      },
+      {
+        "field": "activity",
+        "value": "stretch_or_recovery",
+        "ads": 2,
+        "impressions": 27000,
+        "clicks": 453,
+        "ctr": 0.01678,
+        "shrunk_lift": 1.133,
+        "enough_data": false
+      },
+      {
+        "field": "mood",
+        "value": "calm",
+        "ads": 4,
+        "impressions": 76000,
+        "clicks": 935,
+        "ctr": 0.0123,
+        "shrunk_lift": 0.923,
+        "enough_data": true
+      },
+      {
+        "field": "mood",
+        "value": "energetic",
+        "ads": 4,
+        "impressions": 80000,
+        "clicks": 1113,
+        "ctr": 0.01391,
+        "shrunk_lift": 1.017,
+        "enough_data": true
+      },
+      {
+        "field": "mood",
+        "value": "friendly",
+        "ads": 1,
+        "impressions": 21500,
+        "clicks": 275,
+        "ctr": 0.01279,
+        "shrunk_lift": 0.968,
+        "enough_data": false
+      },
+      {
+        "field": "mood",
+        "value": "intense",
+        "ads": 3,
+        "impressions": 97000,
+        "clicks": 1418,
+        "ctr": 0.01462,
+        "shrunk_lift": 1.06,
+        "enough_data": true
+      },
+      {
+        "field": "shot",
+        "value": "close_up",
+        "ads": 1,
+        "impressions": 33000,
+        "clicks": 424,
+        "ctr": 0.01285,
+        "shrunk_lift": 0.964,
+        "enough_data": false
+      },
+      {
+        "field": "shot",
+        "value": "medium",
+        "ads": 4,
+        "impressions": 101000,
+        "clicks": 1530,
+        "ctr": 0.01515,
+        "shrunk_lift": 1.093,
+        "enough_data": true
+      },
+      {
+        "field": "shot",
+        "value": "no_subject",
+        "ads": 1,
+        "impressions": 35000,
+        "clicks": 334,
+        "ctr": 0.00954,
+        "shrunk_lift": 0.809,
+        "enough_data": false
+      },
+      {
+        "field": "shot",
+        "value": "wide",
+        "ads": 6,
+        "impressions": 105500,
+        "clicks": 1453,
+        "ctr": 0.01377,
+        "shrunk_lift": 1.009,
+        "enough_data": true
+      },
+      {
+        "field": "dominant_colour",
+        "value": "bright_mixed",
+        "ads": 2,
+        "impressions": 56000,
+        "clicks": 734,
+        "ctr": 0.01311,
+        "shrunk_lift": 0.972,
+        "enough_data": false
+      },
+      {
+        "field": "dominant_colour",
+        "value": "cool",
+        "ads": 3,
+        "impressions": 83000,
+        "clicks": 1052,
+        "ctr": 0.01267,
+        "shrunk_lift": 0.944,
+        "enough_data": true
+      },
+      {
+        "field": "dominant_colour",
+        "value": "dark",
+        "ads": 2,
+        "impressions": 61500,
+        "clicks": 904,
+        "ctr": 0.0147,
+        "shrunk_lift": 1.059,
+        "enough_data": false
+      },
+      {
+        "field": "dominant_colour",
+        "value": "neutral",
+        "ads": 1,
+        "impressions": 14000,
+        "clicks": 148,
+        "ctr": 0.01057,
+        "shrunk_lift": 0.908,
+        "enough_data": false
+      },
+      {
+        "field": "dominant_colour",
+        "value": "warm",
+        "ads": 4,
+        "impressions": 60000,
+        "clicks": 903,
+        "ctr": 0.01505,
+        "shrunk_lift": 1.078,
+        "enough_data": true
+      },
+      {
+        "field": "text_amount",
+        "value": "headline_and_more",
+        "ads": 9,
+        "impressions": 190500,
+        "clicks": 2542,
+        "ctr": 0.01334,
+        "shrunk_lift": 0.981,
+        "enough_data": true
+      },
+      {
+        "field": "text_amount",
+        "value": "headline_only",
+        "ads": 3,
+        "impressions": 84000,
+        "clicks": 1199,
+        "ctr": 0.01427,
+        "shrunk_lift": 1.038,
+        "enough_data": true
+      },
+      {
+        "field": "cta_present",
+        "value": "no",
+        "ads": 5,
+        "impressions": 108000,
+        "clicks": 1595,
+        "ctr": 0.01477,
+        "shrunk_lift": 1.071,
+        "enough_data": true
+      },
+      {
+        "field": "cta_present",
+        "value": "yes",
+        "ads": 7,
+        "impressions": 166500,
+        "clicks": 2146,
+        "ctr": 0.01289,
+        "shrunk_lift": 0.952,
+        "enough_data": true
+      }
+    ]
+  }
+}

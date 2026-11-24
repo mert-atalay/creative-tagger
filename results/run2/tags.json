@@ -1,0 +1,847 @@
+{
+  "model": "gpt-5.4-mini",
+  "passes": 2,
+  "images": {
+    "a01": [
+      {
+        "people": {
+          "value": "one_person",
+          "confidence": 0.99
+        },
+        "setting": {
+          "value": "gym_floor",
+          "confidence": 0.98
+        },
+        "activity": {
+          "value": "strength",
+          "confidence": 0.99
+        },
+        "mood": {
+          "value": "intense",
+          "confidence": 0.96
+        },
+        "shot": {
+          "value": "medium",
+          "confidence": 0.93
+        },
+        "dominant_colour": {
+          "value": "dark",
+          "confidence": 0.97
+        },
+        "text_amount": {
+          "value": "headline_and_more",
+          "confidence": 0.95
+        },
+        "cta_present": {
+          "value": "yes",
+          "confidence": 0.99
+        }
+      },
+      {
+        "people": {
+          "value": "one_person",
+          "confidence": 0.99
+        },
+        "setting": {
+          "value": "gym_floor",
+          "confidence": 0.98
+        },
+        "activity": {
+          "value": "strength",
+          "confidence": 0.99
+        },
+        "mood": {
+          "value": "intense",
+          "confidence": 0.92
+        },
+        "shot": {
+          "value": "medium",
+          "confidence": 0.92
+        },
+        "dominant_colour": {
+          "value": "dark",
+          "confidence": 0.98
+        },
+        "text_amount": {
+          "value": "headline_and_more",
+          "confidence": 0.96
+        },
+        "cta_present": {
+          "value": "yes",
+          "confidence": 0.98
+        }
+      }
+    ],
+    "a02": [
+      {
+        "people": {
+          "value": "small_group",
+          "confidence": 0.99
+        },
+        "setting": {
+          "value": "studio_class",
+          "confidence": 0.97
+        },
+        "activity": {
+          "value": "cardio",
+          "confidence": 0.95
+        },
+        "mood": {
+          "value": "energetic",
+          "confidence": 0.98
+        },
+        "shot": {
+          "value": "medium",
+          "confidence": 0.96
+        },
+        "dominant_colour": {
+          "value": "bright_mixed",
+          "confidence": 0.94
+        },
+        "text_amount": {
+          "value": "headline_and_more",
+          "confidence": 0.99
+        },
+        "cta_present": {
+          "value": "yes",
+          "confidence": 0.99
+        }
+      },
+      {
+        "people": {
+          "value": "small_group",
+          "confidence": 0.98
+        },
+        "setting": {
+          "value": "studio_class",
+          "confidence": 0.98
+        },
+        "activity": {
+          "value": "cardio",
+          "confidence": 0.96
+        },
+        "mood": {
+          "value": "energetic",
+          "confidence": 0.98
+        },
+        "shot": {
+          "value": "medium",
+          "confidence": 0.96
+        },
+        "dominant_colour": {
+          "value": "bright_mixed",
+          "confidence": 0.97
+        },
+        "text_amount": {
+          "value": "headline_and_more",
+          "confidence": 0.98
+        },
+        "cta_present": {
+          "value": "yes",
+          "confidence": 0.99
+        }
+      }
+    ],
+    "a03": [
+      {
+        "people": {
+          "value": "one_person",
+          "confidence": 0.99
+        },
+        "setting": {
+          "value": "outdoors",
+          "confidence": 0.99
+        },
+        "activity": {
+          "value": "cardio",
+          "confidence": 0.98
+        },
+        "mood": {
+          "value": "energetic",
+          "confidence": 0.95
+        },
+        "shot": {
+          "value": "wide",
+          "confidence": 0.96
+        },
+        "dominant_colour": {
+          "value": "cool",
+          "confidence": 0.93
+        },
+        "text_amount": {
+          "value": "headline_only",
+          "confidence": 0.98
+        },
+        "cta_present": {
+          "value": "no",
+          "confidence": 0.95
+        }
+      },
+      {
+        "people": {
+          "value": "one_person",
+          "confidence": 0.99
+        },
+        "setting": {
+          "value": "outdoors",
+          "confidence": 0.99
+        },
+        "activity": {
+          "value": "cardio",
+          "confidence": 0.98
+        },
+        "mood": {
+          "value": "energetic",
+          "confidence": 0.9
+        },
+        "shot": {
+          "value": "medium",
+          "confidence": 0.9
+        },
+        "dominant_colour": {
+          "value": "cool",
+          "confidence": 0.95
+        },
+        "text_amount": {
+          "value": "headline_only",
+          "confidence": 0.98
+        },
+        "cta_present": {
+          "value": "no",
+          "confidence": 0.97
+        }
+      }
+    ],
+    "a04": [
+      {
+        "people": {
+          "value": "none",
+          "confidence": 0.99
+        },
+        "setting": {
+          "value": "gym_floor",
+          "confidence": 0.98
+        },
+        "activity": {
+          "value": "strength",
+          "confidence": 0.93
+        },
+        "mood": {
+          "value": "calm",
+          "confidence": 0.9
+        },
+        "shot": {
+          "value": "wide",
+          "confidence": 0.98
+        },
+        "dominant_colour": {
+          "value": "neutral",
+          "confidence": 0.84
+        },
+        "text_amount": {
+          "value": "headline_and_more",
+          "confidence": 0.96
+        },
+        "cta_present": {
+          "value": "yes",
+          "confidence": 0.99
+        }
+      },
+      {
+        "people": {
+          "value": "none",
+          "confidence": 0.99
+        },
+        "setting": {
+          "value": "gym_floor",
+          "confidence": 0.98
+        },
+        "activity": {
+          "value": "none",
+          "confidence": 0.91
+        },
+        "mood": {
+          "value": "calm",
+          "confidence": 0.92
+        },
+        "shot": {
+          "value": "wide",
+          "confidence": 0.97
+        },
+        "dominant_colour": {
+          "value": "dark",
+          "confidence": 0.88
+        },
+        "text_amount": {
+          "value": "headline_and_more",
+          "confidence": 0.95
+        },
+        "cta_present": {
+          "value": "yes",
+          "confidence": 0.99
+        }
+      }
+    ],
+    "a05": [
+      {
+        "people": {
+          "value": "one_person",
+          "confidence": 0.99
+        },
+        "setting": {
+          "value": "home",
+          "confidence": 0.99
+        },
+        "activity": {
+          "value": "stretch_or_recovery",
+          "confidence": 0.98
+        },
+        "mood": {
+          "value": "calm",
+          "confidence": 0.9
+        },
+        "shot": {
+          "value": "medium",
+          "confidence": 0.88
+        },
+        "dominant_colour": {
+          "value": "warm",
+          "confidence": 0.95
+        },
+        "text_amount": {
+          "value": "headline_and_more",
+          "confidence": 0.99
+        },
+        "cta_present": {
+          "value": "no",
+          "confidence": 0.97
+        }
+      },
+      {
+        "people": {
+          "value": "one_person",
+          "confidence": 0.99
+        },
+        "setting": {
+          "value": "home",
+          "confidence": 0.98
+        },
+        "activity": {
+          "value": "stretch_or_recovery",
+          "confidence": 0.97
+        },
+        "mood": {
+          "value": "calm",
+          "confidence": 0.9
+        },
+        "shot": {
+          "value": "medium",
+          "confidence": 0.93
+        },
+        "dominant_colour": {
+          "value": "warm",
+          "confidence": 0.94
+        },
+        "text_amount": {
+          "value": "headline_and_more",
+          "confidence": 0.98
+        },
+        "cta_present": {
+          "value": "no",
+          "confidence": 0.96
+        }
+      }
+    ],
+    "a06": [
+      {
+        "people": {
+          "value": "small_group",
+          "confidence": 0.99
+        },
+        "setting": {
+          "value": "gym_floor",
+          "confidence": 0.97
+        },
+        "activity": {
+          "value": "coaching",
+          "confidence": 0.98
+        },
+        "mood": {
+          "value": "friendly",
+          "confidence": 0.93
+        },
+        "shot": {
+          "value": "medium",
+          "confidence": 0.95
+        },
+        "dominant_colour": {
+          "value": "warm",
+          "confidence": 0.9
+        },
+        "text_amount": {
+          "value": "headline_and_more",
+          "confidence": 0.98
+        },
+        "cta_present": {
+          "value": "yes",
+          "confidence": 0.99
+        }
+      },
+      {
+        "people": {
+          "value": "small_group",
+          "confidence": 0.99
+        },
+        "setting": {
+          "value": "gym_floor",
+          "confidence": 0.97
+        },
+        "activity": {
+          "value": "coaching",
+          "confidence": 0.98
+        },
+        "mood": {
+          "value": "friendly",
+          "confidence": 0.93
+        },
+        "shot": {
+          "value": "medium",
+          "confidence": 0.96
+        },
+        "dominant_colour": {
+          "value": "warm",
+          "confidence": 0.96
+        },
+        "text_amount": {
+          "value": "headline_and_more",
+          "confidence": 0.98
+        },
+        "cta_present": {
+          "value": "yes",
+          "confidence": 0.99
+        }
+      }
+    ],
+    "a07": [
+      {
+        "people": {
+          "value": "one_person",
+          "confidence": 0.99
+        },
+        "setting": {
+          "value": "gym_floor",
+          "confidence": 0.92
+        },
+        "activity": {
+          "value": "cardio",
+          "confidence": 0.98
+        },
+        "mood": {
+          "value": "intense",
+          "confidence": 0.94
+        },
+        "shot": {
+          "value": "medium",
+          "confidence": 0.97
+        },
+        "dominant_colour": {
+          "value": "dark",
+          "confidence": 0.9
+        },
+        "text_amount": {
+          "value": "headline_only",
+          "confidence": 0.95
+        },
+        "cta_present": {
+          "value": "no",
+          "confidence": 0.97
+        }
+      },
+      {
+        "people": {
+          "value": "one_person",
+          "confidence": 0.99
+        },
+        "setting": {
+          "value": "gym_floor",
+          "confidence": 0.95
+        },
+        "activity": {
+          "value": "cardio",
+          "confidence": 0.98
+        },
+        "mood": {
+          "value": "intense",
+          "confidence": 0.9
+        },
+        "shot": {
+          "value": "medium",
+          "confidence": 0.96
+        },
+        "dominant_colour": {
+          "value": "cool",
+          "confidence": 0.99
+        },
+        "text_amount": {
+          "value": "headline_only",
+          "confidence": 0.88
+        },
+        "cta_present": {
+          "value": "no",
+          "confidence": 0.97
+        }
+      }
+    ],
+    "a08": [
+      {
+        "people": {
+          "value": "crowd",
+          "confidence": 0.99
+        },
+        "setting": {
+          "value": "studio_class",
+          "confidence": 0.98
+        },
+        "activity": {
+          "value": "class",
+          "confidence": 0.99
+        },
+        "mood": {
+          "value": "energetic",
+          "confidence": 0.98
+        },
+        "shot": {
+          "value": "wide",
+          "confidence": 0.99
+        },
+        "dominant_colour": {
+          "value": "bright_mixed",
+          "confidence": 0.97
+        },
+        "text_amount": {
+          "value": "headline_and_more",
+          "confidence": 0.99
+        },
+        "cta_present": {
+          "value": "yes",
+          "confidence": 0.99
+        }
+      },
+      {
+        "people": {
+          "value": "crowd",
+          "confidence": 0.99
+        },
+        "setting": {
+          "value": "studio_class",
+          "confidence": 0.98
+        },
+        "activity": {
+          "value": "class",
+          "confidence": 0.99
+        },
+        "mood": {
+          "value": "energetic",
+          "confidence": 0.99
+        },
+        "shot": {
+          "value": "wide",
+          "confidence": 0.98
+        },
+        "dominant_colour": {
+          "value": "bright_mixed",
+          "confidence": 0.98
+        },
+        "text_amount": {
+          "value": "headline_and_more",
+          "confidence": 0.97
+        },
+        "cta_present": {
+          "value": "yes",
+          "confidence": 0.99
+        }
+      }
+    ],
+    "a09": [
+      {
+        "people": {
+          "value": "none",
+          "confidence": 0.99
+        },
+        "setting": {
+          "value": "abstract_or_plain",
+          "confidence": 0.98
+        },
+        "activity": {
+          "value": "none",
+          "confidence": 0.98
+        },
+        "mood": {
+          "value": "calm",
+          "confidence": 0.86
+        },
+        "shot": {
+          "value": "no_subject",
+          "confidence": 0.99
+        },
+        "dominant_colour": {
+          "value": "cool",
+          "confidence": 0.97
+        },
+        "text_amount": {
+          "value": "headline_and_more",
+          "confidence": 0.96
+        },
+        "cta_present": {
+          "value": "yes",
+          "confidence": 0.99
+        }
+      },
+      {
+        "people": {
+          "value": "none",
+          "confidence": 0.99
+        },
+        "setting": {
+          "value": "abstract_or_plain",
+          "confidence": 0.98
+        },
+        "activity": {
+          "value": "none",
+          "confidence": 0.96
+        },
+        "mood": {
+          "value": "calm",
+          "confidence": 0.85
+        },
+        "shot": {
+          "value": "no_subject",
+          "confidence": 0.99
+        },
+        "dominant_colour": {
+          "value": "cool",
+          "confidence": 0.98
+        },
+        "text_amount": {
+          "value": "headline_and_more",
+          "confidence": 0.97
+        },
+        "cta_present": {
+          "value": "yes",
+          "confidence": 0.99
+        }
+      }
+    ],
+    "a10": [
+      {
+        "people": {
+          "value": "one_person",
+          "confidence": 0.99
+        },
+        "setting": {
+          "value": "home",
+          "confidence": 0.92
+        },
+        "activity": {
+          "value": "stretch_or_recovery",
+          "confidence": 0.98
+        },
+        "mood": {
+          "value": "calm",
+          "confidence": 0.96
+        },
+        "shot": {
+          "value": "medium",
+          "confidence": 0.9
+        },
+        "dominant_colour": {
+          "value": "neutral",
+          "confidence": 0.88
+        },
+        "text_amount": {
+          "value": "headline_only",
+          "confidence": 0.98
+        },
+        "cta_present": {
+          "value": "no",
+          "confidence": 0.97
+        }
+      },
+      {
+        "people": {
+          "value": "one_person",
+          "confidence": 0.99
+        },
+        "setting": {
+          "value": "home",
+          "confidence": 0.96
+        },
+        "activity": {
+          "value": "stretch_or_recovery",
+          "confidence": 0.98
+        },
+        "mood": {
+          "value": "calm",
+          "confidence": 0.97
+        },
+        "shot": {
+          "value": "medium",
+          "confidence": 0.88
+        },
+        "dominant_colour": {
+          "value": "warm",
+          "confidence": 0.9
+        },
+        "text_amount": {
+          "value": "headline_only",
+          "confidence": 0.98
+        },
+        "cta_present": {
+          "value": "no",
+          "confidence": 0.98
+        }
+      }
+    ],
+    "a11": [
+      {
+        "people": {
+          "value": "small_group",
+          "confidence": 0.99
+        },
+        "setting": {
+          "value": "outdoors",
+          "confidence": 0.99
+        },
+        "activity": {
+          "value": "class",
+          "confidence": 0.78
+        },
+        "mood": {
+          "value": "friendly",
+          "confidence": 0.95
+        },
+        "shot": {
+          "value": "medium",
+          "confidence": 0.86
+        },
+        "dominant_colour": {
+          "value": "warm",
+          "confidence": 0.97
+        },
+        "text_amount": {
+          "value": "headline_only",
+          "confidence": 0.92
+        },
+        "cta_present": {
+          "value": "yes",
+          "confidence": 0.99
+        }
+      },
+      {
+        "people": {
+          "value": "small_group",
+          "confidence": 0.99
+        },
+        "setting": {
+          "value": "outdoors",
+          "confidence": 0.99
+        },
+        "activity": {
+          "value": "strength",
+          "confidence": 0.84
+        },
+        "mood": {
+          "value": "friendly",
+          "confidence": 0.96
+        },
+        "shot": {
+          "value": "medium",
+          "confidence": 0.94
+        },
+        "dominant_colour": {
+          "value": "warm",
+          "confidence": 0.98
+        },
+        "text_amount": {
+          "value": "headline_and_more",
+          "confidence": 0.96
+        },
+        "cta_present": {
+          "value": "yes",
+          "confidence": 0.99
+        }
+      }
+    ],
+    "a12": [
+      {
+        "people": {
+          "value": "one_person",
+          "confidence": 0.99
+        },
+        "setting": {
+          "value": "abstract_or_plain",
+          "confidence": 0.84
+        },
+        "activity": {
+          "value": "strength",
+          "confidence": 0.98
+        },
+        "mood": {
+          "value": "intense",
+          "confidence": 0.93
+        },
+        "shot": {
+          "value": "close_up",
+          "confidence": 0.99
+        },
+        "dominant_colour": {
+          "value": "dark",
+          "confidence": 0.97
+        },
+        "text_amount": {
+          "value": "none",
+          "confidence": 0.98
+        },
+        "cta_present": {
+          "value": "no",
+          "confidence": 0.99
+        }
+      },
+      {
+        "people": {
+          "value": "one_person",
+          "confidence": 0.99
+        },
+        "setting": {
+          "value": "abstract_or_plain",
+          "confidence": 0.86
+        },
+        "activity": {
+          "value": "strength",
+          "confidence": 0.98
+        },
+        "mood": {
+          "value": "intense",
+          "confidence": 0.93
+        },
+        "shot": {
+          "value": "close_up",
+          "confidence": 0.98
+        },
+        "dominant_colour": {
+          "value": "dark",
+          "confidence": 0.97
+        },
+        "text_amount": {
+          "value": "headline_only",
+          "confidence": 0.88
+        },
+        "cta_present": {
+          "value": "no",
+          "confidence": 0.96
+        }
+      }
+    ]
+  },
+  "invalid": []
+}

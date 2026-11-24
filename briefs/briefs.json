@@ -1,0 +1,182 @@
+[
+  {
+    "id": "a01",
+    "scene": "A woman lifting a barbell in a modern gym with dark walls and dramatic low lighting, medium shot",
+    "headline": "Stronger every week",
+    "intended": {
+      "people": "one_person",
+      "setting": "gym_floor",
+      "activity": "strength",
+      "mood": "intense",
+      "shot": "medium",
+      "dominant_colour": "dark",
+      "text_amount": "headline_only",
+      "cta_present": "yes"
+    }
+  },
+  {
+    "id": "a02",
+    "scene": "A small group of adults in a bright spin class studio with colourful lights, wide shot, lively atmosphere",
+    "headline": "Classes that fly by",
+    "intended": {
+      "people": "small_group",
+      "setting": "studio_class",
+      "activity": "class",
+      "mood": "energetic",
+      "shot": "wide",
+      "dominant_colour": "bright_mixed",
+      "text_amount": "headline_and_more",
+      "cta_present": "yes"
+    }
+  },
+  {
+    "id": "a03",
+    "scene": "A single runner on a quiet waterfront path at dawn, cool blue morning light, wide shot",
+    "headline": "Start before the city wakes",
+    "intended": {
+      "people": "one_person",
+      "setting": "outdoors",
+      "activity": "cardio",
+      "mood": "calm",
+      "shot": "wide",
+      "dominant_colour": "cool",
+      "text_amount": "headline_only",
+      "cta_present": "no"
+    }
+  },
+  {
+    "id": "a04",
+    "scene": "An empty, tidy gym floor with rows of equipment, soft neutral daylight, no people",
+    "headline": "Quiet at 6am",
+    "intended": {
+      "people": "none",
+      "setting": "gym_floor",
+      "activity": "none",
+      "mood": "calm",
+      "shot": "no_subject",
+      "dominant_colour": "neutral",
+      "text_amount": "headline_only",
+      "cta_present": "yes"
+    }
+  },
+  {
+    "id": "a05",
+    "scene": "A man stretching on a yoga mat in a warm sunlit living room, calm mood, medium shot",
+    "headline": "Recovery counts too",
+    "intended": {
+      "people": "one_person",
+      "setting": "home",
+      "activity": "stretch_or_recovery",
+      "mood": "calm",
+      "shot": "medium",
+      "dominant_colour": "warm",
+      "text_amount": "headline_and_more",
+      "cta_present": "no"
+    }
+  },
+  {
+    "id": "a06",
+    "scene": "A friendly coach showing a beginner how to use a machine while another member watches, warm lighting, medium shot",
+    "headline": "A coach shows you every step",
+    "intended": {
+      "people": "small_group",
+      "setting": "gym_floor",
+      "activity": "coaching",
+      "mood": "friendly",
+      "shot": "medium",
+      "dominant_colour": "warm",
+      "text_amount": "headline_only",
+      "cta_present": "yes"
+    }
+  },
+  {
+    "id": "a07",
+    "scene": "Close-up of a person running on a treadmill, focused expression, cool blue gym lighting",
+    "headline": "",
+    "intended": {
+      "people": "one_person",
+      "setting": "gym_floor",
+      "activity": "cardio",
+      "mood": "energetic",
+      "shot": "close_up",
+      "dominant_colour": "cool",
+      "text_amount": "none",
+      "cta_present": "no"
+    }
+  },
+  {
+    "id": "a08",
+    "scene": "A large crowded group fitness class with many people jumping, bright colourful studio, wide shot",
+    "headline": "Bring a friend free",
+    "intended": {
+      "people": "crowd",
+      "setting": "studio_class",
+      "activity": "class",
+      "mood": "energetic",
+      "shot": "wide",
+      "dominant_colour": "bright_mixed",
+      "text_amount": "headline_only",
+      "cta_present": "yes"
+    }
+  },
+  {
+    "id": "a09",
+    "scene": "A plain abstract background of soft blue gradient shapes, no people, no objects",
+    "headline": "No contract. Cancel online.",
+    "intended": {
+      "people": "none",
+      "setting": "abstract_or_plain",
+      "activity": "none",
+      "mood": "calm",
+      "shot": "no_subject",
+      "dominant_colour": "cool",
+      "text_amount": "headline_and_more",
+      "cta_present": "yes"
+    }
+  },
+  {
+    "id": "a10",
+    "scene": "One person in a quiet yoga studio holding a stretch, soft neutral tones, medium shot",
+    "headline": "Slow down on purpose",
+    "intended": {
+      "people": "one_person",
+      "setting": "studio_class",
+      "activity": "stretch_or_recovery",
+      "mood": "calm",
+      "shot": "medium",
+      "dominant_colour": "neutral",
+      "text_amount": "headline_only",
+      "cta_present": "no"
+    }
+  },
+  {
+    "id": "a11",
+    "scene": "Three friends doing bodyweight exercises in a park at golden hour, warm light, smiling, wide shot",
+    "headline": "Train with people you like",
+    "intended": {
+      "people": "small_group",
+      "setting": "outdoors",
+      "activity": "strength",
+      "mood": "friendly",
+      "shot": "wide",
+      "dominant_colour": "warm",
+      "text_amount": "headline_only",
+      "cta_present": "yes"
+    }
+  },
+  {
+    "id": "a12",
+    "scene": "Close-up of chalked hands gripping a heavy dumbbell, dark moody background",
+    "headline": "",
+    "intended": {
+      "people": "one_person",
+      "setting": "gym_floor",
+      "activity": "strength",
+      "mood": "intense",
+      "shot": "close_up",
+      "dominant_colour": "dark",
+      "text_amount": "none",
+      "cta_present": "no"
+    }
+  }
+]
