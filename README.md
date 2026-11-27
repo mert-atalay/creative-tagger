@@ -4,6 +4,8 @@ A vision model looks at every ad image and tags it against a fixed list of attri
 
 Most ad accounts can tell you which ad won. Few can tell you what the winners have in common, because nobody wrote down what is in each picture. This project does that writing down, and then asks how far the tags can be trusted.
 
+Related interactive concept on [mertatalay.com](https://mertatalay.com): [Creative Experiment Memory](https://mertatalay.com/lab/creative-experiment-memory/).
+
 ![Four sample ads, each with its vision tags and confidence bars beside it. Tags that differ from what the image was made to show are in orange.](docs/contact-sheet.jpg)
 
 *Four of the twelve sample ads with their tags. Orange marks a tag that differs from what the image was made to show.*
